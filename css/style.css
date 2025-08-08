@@ -1,0 +1,14 @@
+body {
+    width: 1366px;
+    height: 3799px;
+    margin: 0 auto;
+    background: #fbebea;
+}
+
+.advantages {
+    background-image: url(../img/berries.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 556px;
+    height: 622px;
+}
