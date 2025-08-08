@@ -1,14 +1,158 @@
+:root {
+  --font-family: "Playfair Display", sans-serif;
+}
+
 body {
     width: 1366px;
     height: 3799px;
     margin: 0 auto;
     background: #fbebea;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;    
+    line-height: 27px;
+    color: #2d2829;
 }
+/* navigation */
+.site-navigation-item a {
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d2829;
+}
+.site-navigation-item a.active{
+    color: #F50049;
+}
+.phone {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2d2829;
+    text-decoration: none;
+}
+    /*Promo Блок*/
+.promo h1 {
+    font-size: 78px;
+    line-height: 70px;
+}
+.promo p {
+    font-style: italic;
+    font-size: 40px;
+    line-height: 53px;
+}
+.promo a.button {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    background: #f50049;
+}
+.features {
+    font-size: 14px;
+    line-height: 18px;
+}
+/*Catalog */
+.catalog h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+}
+.cards h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.cards p {
+    font-size: 20px;
+    line-height: 135%;
+}
+.cards a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #2d2829;
+    text-decoration: none;
+}
+/* Review */
+.reviews h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+}
+.reviews h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+}
+.reviews .review-info {
+    font-size: 25px;
+    line-height: 33px;
+}
+/* advantages */
 
 .advantages {
     background-image: url(../img/berries.png);
     background-repeat: no-repeat;
     background-position: left center;
-    width: 556px;
-    height: 622px;
+}
+.advantages h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+}
+.advantages .advantages-text {
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.nature h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.nature p {
+    font-size: 20px;    
+    line-height: 135%
+}
+/* contacts */
+.contacts h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+}
+.contacts h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.contact-item address {
+  font-style: normal;
+}
+.contact-item a {
+  color: #2d2829;
+  text-decoration: none;
+}
+
+.social-item {
+  background-color: #ffffff;
+}
+/* footer */
+.main-footer {
+    background-color: #E8E8E8;
+}
+.footer-navigation-item a {
+    font-size: 13px;
+    line-height: 16px;
+    color: #2d2829;
+    text-decoration: none;
+}
+.copyright {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
 }
